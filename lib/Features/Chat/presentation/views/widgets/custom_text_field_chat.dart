@@ -31,6 +31,7 @@ class CustomTextFieldChat extends StatelessWidget {
                 message:
                     BlocProvider.of<ChatCubitCubit>(context).controller.text,
                 date: DateTime.now()));
+            FocusScope.of(context).unfocus();
             BlocProvider.of<ChatCubitCubit>(context).controller.clear();
           },
         ),
