@@ -1,0 +1,20 @@
+import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
+
+const kPrimaryColor = Color(0xFF007FE8);
+const kPrimaryDarkColor = Color(0xFF3B5998);
+const kSecondaryColor = Color(0xFFF4B45D);
+const kBackgroundColor = Color(0xFFF0F4F7);
+const kGrey = Color(0xFFD9D9D9);
+const kGreyDark = Color(0xFF455A64);
+const kGreyLight = Color(0xFFB2B4C1);
+const kGreyHighlight = Color(0XFFF0F4F7);
+const kWhite = Color(0xFFFFFFFF);
+const kBlack = Color(0xFF000000);
+const kGreeen = Color(0xff05AC61);
+const kGreenLight = Color(0xFF5BBF83);
+const kRed = Colors.red;
+const kOrange = Color(0xffFFAC33);
+const kChatBubbleReceiver = Color(0xFFF0F4F7);
+const kChatBubbleSender = Color(0xFF91CDFF);
+const kChatBubbleText = Color(0xFF69696B);
